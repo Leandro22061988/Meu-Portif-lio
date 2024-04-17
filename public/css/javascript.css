@@ -1,0 +1,86 @@
+/* Estilos para o nav bar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    padding: 5px 25px; /* Reduzindo a altura do nav bar ajustando os valores de padding */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0db4f;
+    color: rgb(104, 101, 101); /* Cor do texto como branco para melhor contraste */
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 150px; /* Espaço entre os itens */
+    list-style: none;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 30px;
+}
+
+.nav-link {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Estilos para a seção de conteúdo */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Estilos para as seções individuais */
+section {
+    margin-bottom: 50px;
+}
+
+/* Estilo de link de âncora */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f0db4f; 
+    color: #333f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: transform 0.2s; /* Adicionando transição de transformação */
+}
+
+.back-to-top:hover,
+.back-to-top:active { /* Adicionando estilos quando o botão é clicado */
+    transform: scale(1.1); /* Aumentando a escala do botão em 10% */
+}
+
+.nav-link:hover {
+    color: black; /* Altere para a cor desejada */
+    background-color: white;
+    padding:10px 20px;
+    border-radius: 50px;
+    
+  }

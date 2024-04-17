@@ -1,0 +1,174 @@
+
+  /* Estilos dos botões */
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    cursor: pointer;
+  }
+
+ 
+  .btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+  
+  .btn-dark {
+    background-color: transparent; /* Define o fundo como transparente */
+    border: none; /* Remove a borda */
+    padding: 15; /* Remove o preenchimento interno */
+  }
+
+  .btn-light {
+    color: #fff;
+  }
+
+  .btn-dark:hover {
+    color: #fff;
+    background-color: #6c5ce7;
+    border-color: #1d2124;
+  }
+
+  /* Estilos personalizados */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: #6c5ce7;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    gap: 150px; /* Espaço entre os itens */
+    list-style: none;
+  }
+
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: rgb(123, 255, 0); /* Altere para a cor desejada */
+    background-color: brown;
+    padding:10px 20px;
+    border-radius: 50px;
+    
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #f8f9fa;
+    padding-top: 50px;
+    transition: all 0.3s ease;
+  }
+  .sidebar ul {
+    padding: 0;
+    list-style: none;
+  }
+  .sidebar ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  .main-content {
+    margin-left: 0;
+    transition: all 0.3s ease;
+    width: 100%;
+    padding: 20px;
+  }
+  .footer {
+    background-color: #6c5ce7;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .social-links {
+    display: flex; /* Faz com que os itens dentro da div sejam exibidos em linha */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 20px;
+  }
+
+   /* Estilo para o texto centralizado */
+   .welcome-text {
+    text-align: center;
+    margin-top: 50px; /* Espaçamento superior */
+  }
+
+  /* Estilo para o botão de download do currículo */
+  .btn-purple {
+    background-color: #e75c63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-grow: 1;
+    margin-right: 20px; /* Espaçamento entre a foto e o texto */
+  }
+
+  .welcome-text {
+    max-width: 50%; /* Define a largura máxima para o texto */
+  }
+
+  .profile-image {
+    max-width: 80%; /* Define a largura máxima para a imagem */
+    text-align: right; /* Alinha a imagem à direita */
+  }
+
+  
+  .profile-image img {
+    max-width: 55%; /* Define a largura máxima para a imagem */
+    text-align: center; /* Centraliza a imagem horizontalmente */
+    margin-left: auto; /* Empurra a imagem para a direita */
+    margin-right: 0; /* Remove a margem direita */
+    margin-top: -250px; /* Adiciona uma margem superior (opcional) */
+    height: auto;
+    border-radius: 50%; /* Para uma imagem de perfil circular */
+}
+
+  

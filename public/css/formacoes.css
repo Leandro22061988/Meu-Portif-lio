@@ -1,0 +1,121 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #989A91;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(187, 83, 83, 0.1);
+}
+
+.formation {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.formation:last-child {
+    border-bottom: none;
+}
+
+.formation h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.formation p {
+    margin-top: 10px;
+    color: #666;
+}
+
+.formation-type {
+    margin-bottom: 20px;
+}
+
+.formation-type h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #989A91;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.formation-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.formation-details img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Estilos para o botão de voltar ao topo */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #989A91;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-to-top:hover,
+.back-to-top:active {
+    transform: scale(1.1);
+}
+
+/* Estilos para o botão de certificado */
+.certificado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.certificado-detail {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.certificado-detail .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a5acd;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px; /* Adicionando margem entre os botões */
+}
+
+.certificado-detail .btn:hover {
+    background-color: #483d8b;
+}

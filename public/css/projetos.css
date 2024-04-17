@@ -1,0 +1,74 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+ 
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5%;
+  background-color:beige;
+}
+
+.navigation {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navigation button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  background-color: #6c5ce7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #6c5ce7;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: #6c5ce7;
+}
+
+h1 {
+  background-image: linear-gradient(to right, #6c5ce7, #FFD43B);;
+  text-align: center;
+  color:white;
+}
+
+.back-to-top:hover,
+.back-to-top:active { /* Adicionando estilos quando o botão é clicado */
+   transform: scale(1.1); /* Aumentando a escala do botão em 10% */
+
+}  
+
+h2 {
+  background-color: #ccc;
+  color: #fff;
+  padding: 5%;
+  border-radius: 5%;
+}

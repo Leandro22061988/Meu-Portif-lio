@@ -1,0 +1,95 @@
+/* Estilos para o nav bar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  padding: 10px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #306998, #FFD43B); /* Cores azul e amarelo */
+  color: white; /* Cor do texto como branco para melhor contraste */
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 150px; /* Espaço entre os itens */
+  list-style: none;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para a seção de conteúdo */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  
+}
+
+p {
+  color: #666;
+ 
+}
+
+/* Estilos para as seções individuais */
+section {
+  margin-bottom: 50px;
+}
+
+/* Estilo de link de âncora */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-image: linear-gradient(to right, #306998, #FFD43B);;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: #5c2d77;
+}
+
+.back-to-top:hover,
+.back-to-top:active { /* Adicionando estilos quando o botão é clicado */
+    transform: scale(1.1); /* Aumentando a escala do botão em 10% */
+}
+
+.project img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.project p {
+  margin-top: 20px;
+  text-align: justify;
+}

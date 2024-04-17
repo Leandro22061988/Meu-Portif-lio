@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Solicitação de Orçamento</title>
+  <link rel="stylesheet" href="../public/css/orcamento.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">Dev Sistem Sistemas & Automações</h1>
+      <div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Menu inicial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projetos.html">Depoimentos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Recomendações</a>
+          </li>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1 class="background">Precisando de um sistema ou automação/bot?</h1>
+    <p>Tenho uma comunidade de desenvolvedores(as) que se especializam na criação de automações e sistemas. Todo orçamento que for enviado abaixo será enviado para minha comunidade exclusiva e você receberá vários orçamentos, podendo escolher o que melhor te atender.</p>
+    <h1><strong>Como pedir um orçamento?</strong></h1>
+    <ul>
+      <li>
+        <strong>Precisa de um bot(robô)?</strong>
+        <ul>
+          <li>Descreva em detalhes o que precisa ser automatizado (quais passos manuais gostaria de automatizar). Mencione site e quais passos/processos gostaria de automatizar</li>
+        </ul>
+      </li>
+      <li>
+        <strong>Precisa de um sistema?</strong>
+        <ul>
+          <li>Descreva a visão ou quais funcionalidades imagina serem necessárias;</li>
+          <li>Quero um sistema para Fazer X,Y,Z. Esse sistema deve me permitir fazer A,B,C,D</li>
+        </ul>
+      </li>
+    </ul>
+
+    <form action="#" method="post">
+      <label for="nome">Nome *</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="telefone">Telefone *</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="email">E-mail *</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensagem">Como podemos te ajudar? *</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <p>
+        Descreva exatamente o que está buscando. Quanto mais detalhes, 
+        mais rápido conseguimos te dar um retorno. Descrições vagas demais 
+        irão atrasar muito o processo de te entregar uma solução
+      </p>
+
+      <label>Descrevi exatamente o que preciso acima? *</label>
+      <div class="radio-buttons">
+        <input type="radio" id="sim" name="descricao" value="sim" required>
+        <label for="sim">Sim</label>
+        
+        <input type="radio" id="nao" name="descricao" value="nao">
+        <label for="nao">Não</label>
+      </div>
+
+      <button type="submit">PEDIR ORÇAMENTO</button>
+    </form>
+
+    <p class="footer">Todos os direitos reservados &ndash; <a href="#">Termos de privacidade</a> &ndash; <a href="#">Termos de Uso</a></p>
+  </div>
+
+</body>
+</html>

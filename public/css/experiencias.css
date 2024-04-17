@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.experiencias {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.experiencias li {
+    margin-bottom: 20px;
+}
+
+.experiencias a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.experiencias a:hover {
+    transform: translateY(-5px);
+}
+
+.empresa {
+    display: flex;
+    align-items: center;
+}
+
+.empresa img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.empresa .info {
+    flex: 1;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 5px;
+    left: 50%; /* Adicionando esta linha */
+    transform: translateX(-50%); /* Adicionando esta linha */
+    text-align: center;
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: #6c5ce7;
+}
+
